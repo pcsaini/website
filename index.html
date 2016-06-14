@@ -13,8 +13,8 @@
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
         
 		<!-- Google fonts -->
-		<link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,900,500italic,300italic,300' rel='stylesheet' type='text/css'> 
+		<!-- <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,900,500italic,300italic,300' rel='stylesheet' type='text/css'>  -->
 	
         <!-- Main Style Sheet -->
         <link rel="stylesheet" href="css/core.css">
@@ -97,25 +97,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <div class="section-title">
+                        <div class="section-title wow fadeInUp" data-wow-delay="0.3s">
                             <h2>About Me</h2>
-                            <p></p>
+                            <p>Little Information About Me</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="about-containt">
-                        <div class="col-lg-7 col-md-6 col-sm-7 col-xs-12">
+                        <div class="col-lg-7 col-md-6 col-sm-7 col-xs-12 wow slideInLeft" data-wow-delay="0.3s">
                             <h3>Prem Chand SAini</h3>
                             <h5>Front-end Developer</h5>
                             <p>Hi, there ! I am Prem Chand Saini.I am student from India currently persuing B.Tech from well known IIIT-Vadodara. I am interested in Web-Development, Designing, Counter Strike and learning.My hobbies very simple like watching movie, singing and listening songs, gaming and Develop new things. </p> 
                             
                             <a href="#" class="border-btn">Download Resume</a>
                         </div>
-                        <div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5  col-xs-12">
+                        <div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-xs-12 wow slideInRight" data-wow-delay="0.3s">
                             <div class="membet-table">
                                 <div class="myPic">
-                                    <img alt="" src="img/me.jpg">
+                                    <img alt="" src="img/my-pic.png">
                                     <div class="imgshape"></div>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                     <div class="col-md-12 text-center">
                         <div class="section-title wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                             <h2>Skills</h2>
-                            <p></p>
+                            <p>What I Really Know</p>
                         </div>
                     </div>
                 </div>
@@ -205,6 +205,24 @@
         </section>
         <!-- end skill area -->
 
+        <section class="some-fun-facts section_padding" id="facts">
+            <div class="some-fun-facts-bg parallax-bg " data-velocity="-.3"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="section-title">
+                            <h2>My Quote</h2>
+                            <p>My Best Quote</p>
+                        </div>
+                        <blockquote>
+                            <p>"This was my first experience with that team and outperformed my expectation! They know there stuff and I highly recommend them! A+++".</p>
+                            <footer><cite title="Source Title">Daryl Hodgeman</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <!-- end facts  area -->
         <!-- start protfolio area -->
         <section class="protfolio-area bg-gray section_padding" id="protfolio">
             <div class="container">
@@ -212,7 +230,7 @@
                     <div class="col-md-12 text-center">
                         <div class="section-title">
                             <h2>My Portfolio</h2>
-                            <p></p>
+                            <p>My Works In these Fileld</p>
                         </div>
                     </div>
                 </div>
@@ -221,144 +239,75 @@
                         <div class="tab-menu text-center">
                             <ul>
                                 <li class="filter" data-filter="all">All</li>
-                                <li class="filter" data-filter=".psd">HTML / CSS</li>
-                                <li class="filter" data-filter=".email">PHP</li>
+                                <li class="filter" data-filter=".html">HTML / CSS</li>
+                                <li class="filter" data-filter=".php">PHP</li>
+                                <li class="filter" data-filter=".email">HTML E-mail</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="protfolio-list">
-                        <div class="col-md-4 col-sm-6 col-xs-12  mix psd">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/1.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/1.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12  mix email">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/2.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/2.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12  mix html5">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/3.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/3.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12  mix php">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/4.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/4.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12  mix jquery">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/5.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/5.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12  mix email">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/6.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/6.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12  mix html5">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/7.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/7.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12  mix php">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/8.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/8.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 hidden-sm  mix php">
-                            <div class="single-protfolio">
-                                <img src="img/protfolio/9.jpg" alt="">
-                                <div class="hover">
-                                    <div class="hover-table">
-                                        <div class="hover-table-cell">
-                                            <a href="img/protfolio/9.jpg" data-lightbox="image-1"><i class="fa  fa-plus-circle"></i></a>
-                                            <h4><a href="#">Project Name</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="protfolio-list" id="lightgallery">
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix html" data-responsive="" data-src="img/html/home.png" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/html/home.png">
+                            </a>
                         </div>
                     </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix html" data-responsive="" data-src="img/html/college.png" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/html/college.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix php" data-responsive="" data-src="img/php/theme8.png" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/php/theme8.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix php" data-responsive="" data-src="img/php/theme8.png" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/php/theme8.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix php" data-responsive="" data-src="img/php/theme9.png" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/php/theme9.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix php" data-responsive="" data-src="img/php/theme10.png" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive sot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/php/theme10.png">
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+                    
                 </div>
             </div>
         </section>
         <!-- end protfolio area -->
+        
+
         <!-- start contacts area -->
-        <section class="contacts-area section_padding theme-bg " id="contact">
+        <section class="contacts-area section_padding" id="contact">
+            <div class="contacts-bg parallax-bg " data-velocity="-.2"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="section-title" style="visibility: visible; animation-name: fadeIn;">
                             <h2>Contact Me</h2>
-                            <p></p>
+                            <p>My Contact Detail</p>
                         </div>
                     </div>
                 </div>
@@ -366,12 +315,12 @@
                     <div class="col-md-5 col-sm-12 col-xs-12 col-lg-5">
                         <div class="contact-form">
                             <label>Write to me</label>
-                            <form action="mail.php" method="POST">
+                            <form action="php/mail.php" method="POST">
                                 <input type="text" name="name" placeholder="Your Name"/>
                                 <input type="email" name="email" placeholder="Your Email"/>
                                 <input type="text" name="subject" placeholder="Subject"/>
                                 <textarea name="message" placeholder="Message"></textarea>
-                                <input type="submit" value="Send" />
+                                <input type="submit" name="submit" value="Send" />
                             </form>
                         </div>
                     </div>
@@ -411,13 +360,13 @@
         <!-- end contacts area -->
 
         <!-- start social  area -->
-        <section class="join-us-area section_padding" id="join">
+        <section class="join-us-area section_padding bg-gray" id="join">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="section-title">
                             <h2>Join Me</h2>
-                            <p></p>
+                            <p>Follow Me on Social Networks</p>
                         </div>
                     </div>
                 </div>
@@ -448,7 +397,7 @@
             </div>
         </section>
         <!-- end social area -->
-
+        
         <!-- start footer area -->
         <footer class="footer-area section_padding">
             <div class="container">
@@ -470,7 +419,7 @@
 
         <!-- All js -->
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
         <!-- bootstrap js -->
         <script src="js/bootstrap.min.js"></script>
         <!-- mixitup js -->
@@ -495,6 +444,23 @@
         <script src="js/wow.min.js"></script>
         <!-- Others js -->
         <script src="js/plugins.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $('#lightgallery').lightGallery();
+        });
+        </script>
+
+        <!-- <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script> -->
+        <script src="js/lightGallery/lightgallery.js"></script>
+        <script src="js/lightGallery/lg-fullscreen.js"></script>
+        <script src="js/lightGallery/lg-thumbnail.js"></script>
+        <script src="js/lightGallery/lg-video.js"></script>
+        <script src="js/lightGallery/lg-autoplay.js"></script>
+        <script src="js/lightGallery/lg-zoom.js"></script>
+        <script src="js/lightGallery/lg-hash.js"></script>
+        <script src="js/lightGallery/lg-pager.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
         <!-- Google Map js -->
         <!--<script src="https://maps.googleapis.com/maps/api/js"></script>
         <script>function initialize() {var mapOptions = {zoom: 15,scrollwheel: false,center: new google.maps.LatLng(23.810332, 90.41)};var map = new google.maps.Map(document.getElementById('googleMap'),mapOptions);var marker = new google.maps.Marker({position: map.getCenter(),animation:google.maps.Animation.BOUNCE,icon: 'img/marker.png',map: map});}google.maps.event.addDomListener(window, 'load', initialize);</script>-->
