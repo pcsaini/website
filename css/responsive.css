@@ -363,6 +363,9 @@
     .about-containt div {
         text-align: center;
     }
+    .experience{
+        padding-top: 50px;
+    }
     .myPic,
     .member-picture {
         display: block;

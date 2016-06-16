@@ -700,8 +700,6 @@ ul#nav li a:hover {
     vertical-align: middle;
 }
 .ih-item.square {
-    width: 350px !important;
-    height: 200px !important;
     border: 4px solid #34495E !important;
     border-radius: 5px;
 }
