@@ -1,38 +1,38 @@
 /*
 ===========================================================================
-			Primary Color: #1A5276; rgb(26, 82, 118)
-			Secondery Color: #102F44; rgb(16, 47, 68)
+			Primary Color: #17A589; rgb(23, 165, 137)
+			Secondery Color: #0E6251; rgb(14, 98, 81)
 ===========================================================================
 */			
 
 .header-area, .header-area.sticky, .border-btn, .section-title h2::after, .tab-menu ul li, .s-link::before, .footer-area, #scrollUp::before{
-	background: #1A5276 none repeat scroll 0 0;
+	background: #17A589 none repeat scroll 0 0;
 }
 .bannerText h1 span, .about-containt h3, .contact-form input[type="submit"]  {
-    color: #1A5276;
+    color: #17A589;
 }
 .ih-item.square {
-    border: 4px solid #1A5276 !important;
+    border: 4px solid #17A589 !important;
 }
 .border-btn:hover, .filter.active, .tab-menu ul li:hover, .s-link:hover::before{
-	background: #102F44;
+	background: #0E6251;
 }
 .progress-bar-L1{
-	 background-color: #102F44;
+	 background-color: #0E6251;
 }
 .contact-form input[type="text"]:focus,
 .contact-form input[type="email"]:focus,
 .contact-form textarea:focus {
-    border-bottom: 1px solid #102F44;
+    border-bottom: 1px solid #0E6251;
 }
 .contact-form input[type="submit"]:hover,
 .contact-form input[type="submit"]:focus {
-    background: #102F44;
+    background: #0E6251;
 }
 .contact-form,
 .our-address {
-    background: rgba(26, 82, 118, 0.6);
+    background: rgba(23, 165, 137, 0.6);
 }
 .address-list ul li i{
-	box-shadow:  0 1px 4px 0 rgba(16, 47, 68, 1);
+	box-shadow:  0 1px 4px 0 rgba(14, 98, 81, 1);
 }
