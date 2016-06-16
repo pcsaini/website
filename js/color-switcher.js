@@ -96,6 +96,6 @@ jQuery('body').append('' +
 				'<li><a class="color8" href="#"></a></li>' +
 			'</ul>' +
 		'</div>' +
-		'<div class="bottom"> <a href="#" class="settings"><i class="fa fa-cogs fa-2x" aria-hidden="true"></i></a> </div>' +
+		'<div class="bottom"> <a href="#" class="settings"><i class="fa fa-gear fa-gear-animate" aria-hidden="true"></i></a> </div>' +
 	'</div>' +
 '');

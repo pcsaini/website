@@ -183,7 +183,33 @@ ul#nav li a:hover {
 .sticky .menu-logo img {
     padding: 7px 0;
 }
-
+.exp-logo{
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.exp-logo img{
+    height: 100%;
+    width: 100%;
+}
+.exp-logo img{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.exp-logo img{
+     transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+}
+.exp-logo img:hover{
+     transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
 /* sticky manu*/
 .header-area {
     background: #34495E none repeat scroll 0 0;
@@ -331,6 +357,42 @@ ul#nav li a:hover {
     margin-right: 10px;
 }
 .border-btn:hover {
+    background: #17202A;
+    cursor: pointer;
+    color: #fff;
+}
+.source-btn {
+    background: #34495E none repeat scroll 0 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    z-index: 999;
+}
+.source-btn::before {
+    content: "\f019";
+    font-family: fontawesome;
+    margin-right: 10px;
+}
+.source-btn:hover {
+    background: #17202A;
+    cursor: pointer;
+    color: #fff;
+}
+.live-btn {
+    background: #34495E none repeat scroll 0 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    z-index: 999;
+}
+.live-btn::before {
+    content: "\f002";
+    font-family: fontawesome;
+    margin-right: 10px;
+}
+.live-btn:hover {
     background: #17202A;
     cursor: pointer;
     color: #fff;

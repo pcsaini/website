@@ -27,13 +27,15 @@
     background-color:rgba(0,0,0,.7);
     box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.08);
     display: block;
-    height: 40px;
+    height: 50px;
     position: absolute;
-    right: -40px;
+    right: -50px;
     top: 0;
-    width: 40px;
-    padding: 3px;
+    width: 50px;
+    padding: 4px 12px;
+    font-size: 2em;
     color: #fff;
+    border-radius: 0 5px 5px 0;
 }
 #color-style-switcher select {
     background: none repeat scroll 0 0 #F6F6F6;
@@ -82,7 +84,36 @@ ul.colors li a.color1.active:after {
         display: none;
     }
 }
-
+/*Icon Animation*/
+.fa-gear-animate{
+    animation:rotation 2s infinite steps(30);
+    -webkit-animation:rotation 2s infinite steps(30);
+    -moz-animation:rotation 2s infinite steps(30)
+}
+@keyframes rotation{
+    0%{
+        transform:rotate(0)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+@-webkit-keyframes rotation{
+    0%{
+        -webkit-transform:rotate(0)
+    }
+    100%{
+        -webkit-transform:rotate(360deg)
+    }
+}
+@-moz-keyframes rotation{
+    0%{
+        -moz-transform:rotate(0)
+    }
+    100%{
+        -moz-transform:rotate(360deg)
+    }
+}
 /* Color Style Switcher  End
 ---------------------------------------------------------------------- */
 
