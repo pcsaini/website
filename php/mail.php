@@ -34,8 +34,12 @@ Message:	'.$_POST['message'].'
     // Send To  
     $mail->AddAddress("premchandsaini779@gmail.com", "Prem Chand Saini"); // Where to send it - Recipient
     $result = $mail->Send();		// Send!  
-	$message = $result ? 'Successfully Sent!' : 'Sending Failed!';      
+	$message = $result ? 'Message Successfully Sent!' : 'Message Sending Failed!';      
 	unset($mail);
+
+    echo $message;
+    echo "<br>Go to Website <a href='../index.html'> Click Here</a>";
+
 
 }
 ?>
