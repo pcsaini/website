@@ -226,13 +226,14 @@
     .logo {
         left: 0;
         position: absolute;
-        top: 50px;
+        top: 20px;
         right: 0!important;
         margin: auto;
         width: 100%;
         text-align: center;
     }
     .bannerText {
+        margin-top: 100px;
         max-width: 650px;
     }
     .bannerText h1 {
@@ -369,7 +370,7 @@
     .myPic,
     .member-picture {
         display: block;
-        height: 300px;
+        height: 232px;
         position: relative;
         width: 290px;
         margin: auto;
