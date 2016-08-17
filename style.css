@@ -1,28 +1,3 @@
-/*------------------------------------------------------------------
-
-Master Style sheet
-------------------
-
-Template    :  Dosto Material Personal Portfolio HTML5 Template
-Author      :  ThemesShop
-Version     :  1.0 
-
---------------------------------------------------------------------
-
-CSS INDEX
-===================
-1. Theme Default CSS (body, link color, section etc)
-2. Header Area
-3. Slider Area
-4. Skill Area
-5. About Area
-6. Portfolio Area
-7. Contact form area
-8. Join us social link
-9. Footer Area
-
---------------------------------------------------------------------*/
-
 
 /*--------------------------
     1. Theme Default CSS
@@ -993,4 +968,15 @@ ul#nav li a:hover {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+
+
+
+
+
+
+/*resume CSS*/
+.name{
+    padding: 10px 10px 0 10px;
 }
