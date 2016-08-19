@@ -1,0 +1,47 @@
+.body{
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+table{
+	width: 700px;
+	margin: auto;
+}
+/*resume CSS*/
+.name{
+    padding: 10px 10px 0 10px;
+}
+.resume-pic{
+	height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.resume-pic img{
+	height: 150px;
+    width: 150px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.right-border{
+    border-right: 2px solid #000;
+}
+.align-right{
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+}
+.padding-right{
+	padding-right: 10px;
+}
+.right-border{
+	border-right: 1px solid #000;
+}
+.padding-left{
+	padding-left: 10px;
+}
+.padding-top{
+	padding-top: 0;
+}
