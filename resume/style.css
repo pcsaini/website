@@ -31,6 +31,7 @@ td{
     width: 150px;
     border: 1px solid #000;
     border-radius: 50%;
+    position: relative;
 }
 .detail{
 	line-height: 0.5;
@@ -60,4 +61,18 @@ td{
 }
 .padding-top{
 	padding-top: 0;
+}
+a.btn{
+	margin: 10px;
+	position: absolute; 
+}
+.btn{
+	padding: 5px;
+	border: 1px solid #000;
+	color: #000;
+	border-radius: 4px;
+}
+a.btn:hover{
+	color: #1A5276;
+	border-color: #1A5276;
 }
