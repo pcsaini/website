@@ -1,0 +1,160 @@
+
+/* Hide scroll bar */
+
+html.remodal-is-locked {
+  overflow: hidden;
+
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+/* Anti FOUC */
+
+.remodal,
+[data-remodal-id] {
+  display: none;
+}
+
+/* Necessary styles of the overlay */
+
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+
+  display: none;
+}
+
+/* Necessary styles of the wrapper */
+
+.remodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+  overflow: auto;
+
+  text-align: center;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.remodal-wrapper:after {
+  display: inline-block;
+
+  height: 100%;
+  margin-left: -0.05em;
+
+  content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+
+.remodal-overlay,
+.remodal-wrapper {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Necessary styles of the modal dialog */
+
+.remodal {
+  position: relative;
+
+  outline: none;
+
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.remodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block;
+}
+
+
+.modal-contant{
+  box-shadow: none;
+border-radius: 0 !important;
+
+}
+.modal-header{
+    min-height: 16.43px;
+    padding: 0 15px 15px 15px;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: left;
+}
+.modal-body{
+  position: relative;
+  padding: 15px;
+  text-align: left;
+
+}
+.modal-footer{
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+
+}
+
+.eventime_modal .modal-content {
+
+    box-shadow: none;
+    border-radius: 0 !important;padding: 20px;
+}
+.modal-header{
+    font-family: 
+}
+
+.eventime_modal .modal-title {
+    font-family: 
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+.eventime_modal .contact_icon {
+    width: 51px;
+    height: 51px;
+    padding-top: 10px;
+    float: left;
+}
+.eventime_modal .img_half {
+    width: 49.6%;
+    height: auto;
+    display: inline;
+}
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+    padding-right: 15px;
+}
+.vcard-photo img {
+    max-width: 100%;
+    max-height: 150px;
+}
+.modal-footer ul{
+    text-align: center;
+}
+.modal-footer ul li{
+    display: inline-block;
+}
+/* Moaal End*/
+.speaker-modal.eventime_modal img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.speaker-modal-description{
+    max-height: 200px;
+    padding: 15px;
+}

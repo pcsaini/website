@@ -1,0 +1,15 @@
+/**
+
+* Main Color: #e80e6c;
+
+**/
+
+.tabs li a:after, .owl-dot.active, .btn, .btn.dark:hover, .btn.light:hover, .btn.alt.light:hover, .progress .skill .skill-bar, .progress .skill .skill-bar .skill-info, .title.color h1, .title.color h2, .title.color h3, .title.color h4, .title.color h5, .title.color h6, .speaker-list li .speaker .media .info-media .social-icons a, .testimonials .featured .item .quote, .price.featured .price-body, .grid .grid-item a:after, .counter.color, form input[type="submit"], .section.color {
+  background: #e80e6c;
+}
+.tabs-content .post-body .post-meta ul li a, .title.dark .subtitle, .speaker-list li .speaker .media .info-media .social-icons a, .speaker-list li .speaker .speaker-meta .company a, .testimonials .item .user-information .company a, .content-section .slide .slide-content .slider-inner .date span, .content-section .slide .slide-content .slider-inner .date p {
+  border-color: #e80e6c;
+}
+.owl-nav > div:hover, a, .dark .feature .icon i, .counter.dark .counter-info, .navigation-container nav.social-icons a:hover, .navigation-container nav .nav-inner li a:before, .navigation-container nav .nav-inner li a:hover, footer.section h1, footer.section h2, footer.section h3, footer.section h4, footer.section h5, footer.section h6, footer .copyright .social-icons a:hover, ul.links.light li a:hover, ol.links.light li a:hover {
+  color: #e80e6c;
+}

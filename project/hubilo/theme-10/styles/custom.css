@@ -1,0 +1,220 @@
+/*
+  You can add your own CSS in this file, this code will overwrite main stylesheet file.
+*/
+
+/*
+@import url(http://fonts.googleapis.com/css?family=example);
+*/
+
+/*
+If you want to change fonts decomentate and overwrite with your font name
+*/
+
+/*
+body {
+	font-family: 'fontName';
+}
+*/
+/*
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'fontName';
+}
+*/
+/*
+p {
+	font-family: 'fontName';
+}
+*/
+/*
+span {
+	font-family: 'fontName';
+}
+*/
+/*
+input, textarea, select, label, small {
+	font-family: 'fontName';
+}
+*/
+
+
+/* 
+  And some media queries for you
+*/
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 790px) {
+  .speaker .info-media{
+    display: none;
+  }
+  .image-container img{
+    position: initial !important;
+  }
+  .offset-4-sp{
+  margin-left: 0 !important;
+}
+.title h1, .title h2, .title h3, .title h4, .title h5, .title h6{
+  margin: 0 !important;
+  display: block;
+}
+
+}
+
+
+/* Gallery Tab */
+#tabs {
+  overflow: hidden;
+  padding: 0;
+  zoom: 1;
+  position:relative;
+  top:2px;
+  z-index: 1;
+  text-align: center;
+}
+
+#tabs li {
+  list-style: none;
+  margin:  0 5px 10px 5px;
+  display: inline-block;
+  padding: 0; 
+}
+#tabs li a {
+  
+  text-align: center;
+  text-decoration: none;
+}
+#tabs li a.current {
+}
+
+#tabs li a.current:hover{
+}
+
+
+
+/* Custom Button */
+.btn_list{
+  list-style: none;
+  text-align: center;
+}
+.btn_list li{
+  display: inline-block;
+  padding: 10px;
+}
+
+/* Exhibitor Section */
+.image-container{
+  height: 100%;
+  width: 90%;
+  position: relative;
+  cursor: pointer;
+}
+.image-container img{
+  max-height: 100%;
+  width: auto;
+  max-width: 80%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Map Section */
+.map .info-window h2{
+  font-weight: 700;
+}
+.map .info-window h4{
+  font-weight: 600; 
+}
+
+
+/* Sponsor Section */
+.sponsor-container-inner{
+    padding:0 !important;
+}
+.sponsor-category-container-inner{
+    display: inline-block;
+    margin: 15px 15px;
+    padding: 0;
+    background-color: #fff;
+    height: 150px !important;
+    width: 250px !important;
+    line-height: 100px;
+    text-align: center;
+}
+.sponsor-img-container {
+    margin-left: 10px;
+    height: 100%;
+    width: 90%;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.sponsor-container
+{
+    padding:0;
+}
+.sponsor-img-container img{
+    max-height: 100%;
+    width: auto;
+    max-width: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+}
+
+.offset-4-sp{
+  margin-left: 37.33333%;
+}
+
+
+/* Supporter Section */
+.supporter-container-inner{
+    padding:0 !important;
+}
+.supporter-category-container-inner{
+    display: inline-block;
+    margin: 15px 15px;
+    padding: 0;
+    background-color: #fff;
+    height: 120px !important;
+    width: 120px !important;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid;
+}
+.supporter-img-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.supporter-container
+{
+    padding:0;
+}
+.supporter-img-container img{
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+}
