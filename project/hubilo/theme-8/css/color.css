@@ -1,0 +1,53 @@
+/*Background Color Start*/
+#header, .top-speakers-section .inner-box .caption, .plan-box span.batch, .venue-location, .date-box, .footer-section-2, .hexagon-style-4, .past-event ul li .caption, .program-section .nav-tabs > li.active > a .hexagon-style-5, .tab-head, .blog-page blockquote, .tags ul li a:hover, .hexagon-style-8, .program-detail strong.date, .organizers-section .holder .text-box, .speaker-detail-social {
+	background-color: #59606b;
+}
+/*Background Color End*/
+
+/*Text Color Start*/
+.amount-box strong.price, .amount-box span, .home-testimonials strong.name, .footer-section-3 strong.copy a:hover, #main .parallax-section .btn-style-1, .location-box address .btn-style-1, #blockquote-box blockquote q  {
+	color: #59606b;
+}
+/*Text Color End*/
+
+/*Button Color Start*/
+a.btn-style-1, .footer-section-1 form button, .booking-form .holder form input[type="submit"], .comment-form input[type="submit"], .speaker-detail a.btn-download {
+	background-color: #59606b;
+}
+/*Button Color End*/
+
+/*Border Color Start*/
+.home-testimonials strong.name:before, .home-testimonials strong.name:after {
+	border-color: #59606b;
+}
+.hexagon-style-4:before {
+	border-bottom: 19.34px solid #59606b;
+}
+.program-section .nav-tabs > li.active > a .hexagon-style-5:before {
+	border-bottom-color: #59606b;
+}
+.hexagon-style-4:after {
+	border-top: 19.34px solid #59606b;
+}
+.program-section .nav-tabs > li.active > a .hexagon-style-5:after {
+	border-top-color: #59606b;
+}
+.program-section .nav > li > a:hover .hexagon-style-5 {
+	background-color: #59606b;
+}
+.program-section .nav > li > a:hover .hexagon-style-5:before {
+	border-bottom-color: #59606b;
+}
+.program-section .nav > li > a:hover .hexagon-style-5:after {
+	border-top-color: #59606b;
+}
+.tab-content-box .left-box .btn-style-1:before {
+	border-color: transparent transparent #59606b transparent;
+}
+.hexagon-style-8:before {
+	border-bottom: 14.43px solid #59606b;
+}
+.hexagon-style-8:after {
+	border-top: 14.43px solid #59606b;
+}
+/*Border Color End*/
