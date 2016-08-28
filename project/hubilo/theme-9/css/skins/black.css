@@ -1,0 +1,114 @@
+/* black Skin */
+
+/* ------------------------------------------------------------------------ */
+/* Color
+/* ------------------------------------------------------------------------ */
+
+ul.default li:before , .default_text , a , .jx-page-header .breadcrumb span , .jx-caption-big-1 , .jx-caption-big-2 , .jx-section-title-1 .jx-seperator-icon i , .blog-item .title:hover a , .jx-blog-1 .blog-item .meta span , .contact-item .name ,.jx-footer-recent-post li .title a:hover , .jx-section-title-1.light .jx-seperator-icon , .jx-section-title-1.light .jx-seperator-icon-no i , .jx-section-title-2 .jx-title , .jx-accordion .circle .title , .jx-accordion .circle [data-accordion] > [data-control]:after , .jx-accordion .none .open .title , .jx-accordion .none .title , .jx-accordion .none .title:hover , .jx-accordion .none [data-accordion] > [data-control]:after , .jx-servicelist-1 .title , .jx-circle-nav li i:hover , .jx-srvc-title , .jx-img-hover .jx-hover-bottom .jx-content .jx-portfolio-title:hover , .jx-img-hover .jx-hover-bottom .jx-content .jx-portfolio-like , .jx-img-hover .jx-hover-bottom .jx-content .jx-portfolio-title:hover , .jx-img-hover .jx-hover-bottom .jx-content .jx-portfolio-like , .jx-more-button i , .jx-more-button a ,.jx-testimonials-2 .position , .jx-servicebox-1 .title , .jx-servicebox-1 .icon , .jx-servicebox-1.dark .jx-servicebox-item:hover .icon , .jx-servicebox-item:hover .jx-srvc-brackets , .jx-servicebox-1.sqaure.dark .jx-servicebox-item:hover .icon , .jx-servicebox-item:hover .readmore i , .janxcode-count-up-grid-row2 ul li span , .jx-count-up-g1-count,.jx-count-up-g2-count , .jx-logo-partner-home .logo-partner .title , .jx-blockquote .quote-b:before , .jx-list-group.border-square-light span , .jx-list-group.border-circle-light span , .jx-taxbox-1 .tag-msg span , .jx-taxbox-1 .tag-button-1:hover a , .jx-taxbox-2 .tag-msg span , .jx-taxbox-2 .tag-button-1:hover a ,.jx-taxbox-2 .tag-msg span ,  .shortcode_tab_a .resp-vtabs li.resp-tab-active , .shortcode_tab_b .resp-vtabs li.resp-tab-active , .shortcode_tab_e .resp-tabs-list li:hover , .shortcode_tab_e .resp-tabs-list li:hover ,
+.shortcode_tab_e li.resp-tab-active , .shortcode_tab_e li.resp-tab-active , .shortcode_tab_e li , .jx-team-member-2 .name , .jx-portfolio-filter-page a,.jx-blog-recent-post li .title a,.jx-servicelist-1.jx-light .servicelist-head .category, .jx-servicelist-2.jx-light .servicelist-head .category, .jx-servicelist-3.jx-light .servicelist-head .category,.jx-section-title-5 .jx-title-icon,.jx-image-slider .owl-prev:hover, .jx-image-slider .owl-next:hover,.jx-servicelist-4 .icon i,.jx-list-group li span,.jx-caption-big-3-1,.jx-sidebar-recentposts li .title a,.jx-single-post-tag li:hover a,.fixed .mega-menu ul > li > a.mPS2id-highlight, .mega-menu ul > li > a.mPS2id-highlight
+{
+	color:#333 !important;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Background
+/* ------------------------------------------------------------------------ */
+
+::selection 
+{
+	background:#333 !important;
+}
+
+::-moz-selection   
+{
+	background:#333 !important;
+}
+
+.jx-default-bg,.button , .jx-testimonials-1 .icon i , .jx-page-header .page-icon i , .jx-mobile-logo , .jx-header-logo , .jx-accordion .none .open > .title .jx-accordion-icon::after , .jx-accordion .none [data-accordion] > [data-control]:hover:after , .jx-section-title-3 .jx-seperator-hr ,.jx-title-border , .jx-call-action-box .box-content .button , .jx-team-member-2 .icon img , .jx-section-title-2 .jx-seperator-hr , .jx-accordion .circle .open .title , .jx-accordion .circle .title:hover, .jx-accordion-3 .circle .open .title , .jx-accordion-3 .circle .title:hover , .jx-accordion .none [data-accordion] > [data-control]:hover:after , .jx-accordion .none [data-accordion].open > [data-control]:after , .jx-servicelist-1 .icon i , .jx-img-hover .jx-hover-bottom i.fa-photo , .jx-img-hover .jx-hover-top a i.fa-plus , .jx-img-hover .jx-hover-bottom i.fa-photo , .jx-img-hover .jx-hover-top a i.fa-plus , .jx-price-table-1 .price-table-bg , .price-table-item:hover .cart ,.jx-price-table-2 .price-table-bg,.jx-price-table-3 .price-table-bg,.jx-price-table-2 .price-button,.jx-price-table-3 .price-button, .jx-testimonials-2 .icon , .jx-servicebox-item:hover .icon , .jx-logo-partner-home .logo-partner .seperator-hr , .dropcap.dark , .jx-list-group.circle-light span , .jx-list-group.square-light span , .jx-taxbox-1 .tag-button-1 a , .jx-taxbox-2 .tag-button-1 a , .jx-header-small-logo , .jx-search-icon:hover i  , .jx-caption-orange-btn , .jx-blog-1 .blog-item .date, .jx-blog-2 .blog-item .date , .jx-blog-3 .blog-item .date , .jx-blog-1 .blog-item .button , .jx-pagination li:hover a , .jx-pagination li.current a , .contact-item .icon , input.jx-submit , .menu a.active , .jx-team-member-1 .bg-orange  ,  .menu a.active:before  , .countup_hr , .countup-dot  , .flex-control-paging li a, .jx-sidebar-tags li,.jx-sidebar-search  .jx-form-wrapper button,.jx-blog-1.blog-single-post .date,.jx-accordion .none .open > .title .jx-accordion-icon::after,.jx-servicelist-2 .icon i,.jx-servicelist-3 .icon i,.jx-slider .mega-menu li.current,.jx-section-title-5 .jx-bottom-line,.jx-blog-filter a:hover,.jx-portfolio-filter a:hover ,.jx-countup-2 .icon,.noUi-connect,.jx-sale-tag,.jx-skillsbar-3 .skillbar-bar,.jx-skillsbar-4 .skillbar-bar,.jx-skillsbar-5 .skillbar-bar,.jx-skillsbar-6 .skillbar-bar,.shortcode_tab_e.jx-white-tab li.resp-tab-active,.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active{
+	background-color:#333;
+}
+	
+
+
+/* ------------------------------------------------------------------------ */
+/* Background Color
+/* ------------------------------------------------------------------------ */
+
+.default_bg , table th , #scrollUp , table tbody tr.head td , .jx-btn-default , .jx-btn-default.dark:hover , .jx-skillsbar-1 .skillbar-bar,.jx-skillsbar-2 .skillbar-bar,.jx-rotated-curve-shape.jx-dark.jx-service-small .icon {
+	background-color:#333;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Background RGBA Color
+/* ------------------------------------------------------------------------ */
+
+.jx-tint:before {
+	background: rgba(50, 180, 192, 0.9);
+}
+
+.jx-team-member-6 .plus-hover .team-image-overlay,.blog-mason .jx-image-overlayer,.jx-team-member-4 .team-member-item:hover .team-image-overlay,.portfolio-item:hover .jx-image-overlayer,.jx-related-image .jx-image-overlayer,.jx-product-image.image-wrapper .jx-image-overlayer,.jx-image-overlayer{
+	background: rgba(50, 180, 192, 0.8);	
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Border Color
+/* ------------------------------------------------------------------------ */
+
+.default_border , .jx-pagination span a , .jx-accordion .none [data-accordion] > [data-control]:after , .jx-more-button a , .jx-servicebox-1 .icon , .jx-servicebox-1.dark .jx-servicebox-item:hover .icon , .jx-servicebox-1.sqaure.dark .jx-servicebox-item:hover .icon , .jx-list-group.border-square-light span , .jx-list-group.border-circle-light span , .jx-taxbox-1 .tag-button-1:hover a , .jx-taxbox-2 .tag-button-1:hover a , .flex-control-paging li a.flex-active,.jx-portfolio-filter-page a.current,.jx-section-title-5 .jx-title-icon,.jx-single-post-tag li:hover{
+	border-color:#333;
+}
+
+.jx-sidebar-search .jx-form-wrapper button::before{
+	border-color:transparent #333;
+}
+
+.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li.resp-tab-active::after{
+  border-color:#333 transparent;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Border Left Color
+/* ------------------------------------------------------------------------ */
+
+.jx-blockquote .quote-a.quote-border , .shortcode_tab_a .resp-vtabs li.resp-tab-active {
+	border-left-color:#333;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Border Right Color
+/* ------------------------------------------------------------------------ */
+
+.shortcode_tab_b .resp-vtabs li.resp-tab-active ,.jx-sidebar-search .jx-form-wrapper button:hover::before{
+	border-right-color:#333;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Border Top Color
+/* ------------------------------------------------------------------------ */
+
+.shortcode_tab_e li.resp-tab-active , .menu .submenu li:hover,.menu > li > .submenu,.submenu li li ul{
+	border-top-color:#333;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Border Top Color
+/* ------------------------------------------------------------------------ */
+
+.menu .submenu li:hover {
+	border-bottom-color:#333;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Variant Background Color
+/* ------------------------------------------------------------------------ */
+
+
+.jx-bg-defualt-1{background-color:#c63f32 !important}
+.jx-bg-defualt-2{background-color:#ad3b30 !important}
+.jx-bg-defualt-3{background-color:#852f27 !important}
+.jx-bg-defualt-4{background-color:#5b1a13 !important}
