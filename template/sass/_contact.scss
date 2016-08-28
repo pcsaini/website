@@ -1,0 +1,38 @@
+#contact {
+	background: $dark-bg;
+	padding-bottom: 70px;
+}
+
+.contact-form {
+	margin-bottom: 40px;
+	input, textarea {
+		padding: 10px;
+		width: 100%;
+		margin-bottom: 30px;
+		background: $darker-bg;
+		border: 0;
+		outline: 0;
+		font-size: 13px;
+		font-family: 'robotoregular';
+		color: lighten($dark-bg, 20%);
+	}
+	textarea {
+		max-width: 100%;
+	}
+	.button {
+		display: inline-block;
+		width: auto;
+	}
+}
+
+.contact-info {
+	margin-bottom: 50px;
+	h4 {
+		font-size: 18px;
+		font-family: 'robotobold';
+		margin-bottom: 30px;
+	}
+	p {
+		font-size: 13px;
+	}
+}

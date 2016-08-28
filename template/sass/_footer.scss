@@ -1,0 +1,18 @@
+.site-footer {
+	background: $darker-bg;
+	padding: 30px 0;
+	a {
+		color: $accent;
+	}
+}
+
+.go-top {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid $white;
+	display: inline-block;
+	color: $white !important;
+	margin-bottom: 30px;
+}

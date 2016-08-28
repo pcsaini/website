@@ -1,0 +1,100 @@
+body {
+	font-size: 14px;
+	line-height: 24px;
+	color: $body-color;
+	font-family: 'robotolight';
+}
+
+a {
+	color: $accent;
+	@include transition(all, 150ms, ease-in-out);
+	text-decoration: none !important;
+	&:hover {
+		color: $heading-color;
+	}
+}
+
+h1, h2, h3, h4, h5 {
+	color: $heading-color;
+}
+
+
+::-webkit-input-placeholder {
+   color: lighten($dark-bg, 20%);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: lighten($dark-bg, 20%);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: lighten($dark-bg, 20%);
+}
+
+:-ms-input-placeholder {  
+   color: lighten($dark-bg, 20%);
+}
+
+.button {
+	padding: 10px 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'robotobold';
+	&.default {
+		background: $accent;
+		color: $white;
+	}
+}
+
+.page-section {
+	padding-top: 120px;
+}
+
+.page-heading {
+	margin-bottom: 65px;
+}
+
+.page-title {
+	font-size: 20px;
+	font-family: 'robotobold';
+	text-transform: uppercase;
+	margin-bottom: 7px;
+}
+
+.page-subtitle {
+	font-size: 14px;
+	font-family: 'robotolight';
+	text-transform: uppercase;
+}
+
+.page-icon-holder {
+	text-align: right;
+}
+
+.page-icon {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background: $accent;
+	color: $white;
+	display: inline-block;
+}
+
+.social-icons {
+	margin-top: 30px;
+	li {
+		display: inline-block;
+	}
+	a {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		background: lighten($dark-bg, 10%);
+		text-align: center;
+		color: $white;
+		&:hover {
+			background: $accent;
+		}
+	}
+}

@@ -1,0 +1,55 @@
+#about {
+	background: $dark-bg;
+	p {
+		font-size: 13px;
+	}
+	h4 {
+		font-size: 18px;
+		font-family: 'robotobold';
+		margin-bottom: 15px;
+	}
+}
+
+
+.profile-image {
+	overflow: hidden;
+	margin-bottom: 30px;
+	img {
+		width: 100%;
+		display: block;
+	}
+}
+
+.profile-content {
+	margin-bottom: 40px;
+	span {
+		display: block;
+		margin-bottom: 15px;
+		color: lighten($dark-bg, 40%);
+	}
+}
+
+.my-skills {
+	margin-bottom: 120px;
+}
+
+.progess-bars {
+	margin-top: 30px;
+	span {
+		font-size: 12px;
+	}
+}
+
+.progress {
+	box-shadow: none;
+	height: 14px;
+	background: lighten($dark-bg, 5%);
+	border-radius: 0;
+	border: 0;
+	margin-bottom: 10px;
+}
+
+.progress-bar {
+	box-shadow: none;
+	background: $accent;
+}

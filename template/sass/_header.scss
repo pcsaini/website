@@ -1,0 +1,68 @@
+.navbar-default a.navbar-brand {
+	color: $white;
+	font-family: 'robotoregular';
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 8px;
+	&:hover {
+		color: $white;
+	}
+}
+
+.navbar-default .navbar-nav>li {
+	margin-top: 8px;
+	margin-left: 30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: $white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	&.current {
+		color: $accent;
+		&:hover {
+			color: $accent;
+		}
+	}
+	&:hover {
+		color: $white;
+	}
+}
+
+.navbar,
+.navbar-default,
+.navbar-static-top {
+	background-color: $darker-bg;
+	border-color: $dark-bg;
+	height: 70px;
+}
+
+.is-sticky .navbar.navbar-default.navbar-static-top {
+	width:100%;
+	height: 70px;
+}
+
+#undefined-sticky-wrapper,
+.sticky-wrapper {
+	background: $darker-bg;
+	height: 70px !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	background: $darker-bg;
+	border-color: transparent;
+}
+
+.navbar-toggle {
+	border-radius: 0;
+	border: 1px solid $white;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0;
+	&:hover {
+		background: $darker-bg;
+	}
+}
