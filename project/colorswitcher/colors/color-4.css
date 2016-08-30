@@ -1,0 +1,7 @@
+.name, .caption, .btn-style {
+	color: #8673d0;
+	border-color: #8673d0;
+}
+.btn-style:hover{
+	background-color: #8673d0;
+}
