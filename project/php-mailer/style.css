@@ -1,0 +1,65 @@
+body{
+	font-family: sans-serif;
+}
+.container{
+	margin: auto;
+	padding: 20px;
+	width: 800px;
+}
+#form1{
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+}
+#form1 input{
+	margin: 10px 0;
+	height: 40px;
+	width: 100%;
+	border:2px solid #000;
+	padding: 0 20px ;
+	font-size: 18px;
+	color: #000;
+	border-radius: 0;
+}
+#form1 textarea{
+	margin: 10px 0;
+	font-family: sans-serif;
+	height: 80px;
+	width: 100%;
+	border:2px solid #000;
+	padding: 10px 20px ;
+	font-size: 18px;
+	color: #000;
+	border-radius: 0;
+}
+#form1 input:{
+	border-color: #fff;
+}
+#form1 input[type="submit"]{
+	width: 30%;
+	text-align: center;
+	color:#000;
+	background: #fff;
+	border-radius: 30px;
+}
+#form1 input[type="submit"]:hover{
+	color: #fff;
+	background: #000;
+}
+#form1 input[type="submit"]{
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+#form1 input[type="submit"]{
+	transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+}
+#form1 input[type="submit"]:hover{
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
