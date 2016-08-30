@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Library</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_exit">Exit</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_create">Create</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="issue">Issue Book</string>
+    <string name="title_activity_issue">Issue</string>
+    <string name="title_activity_sell">Sell</string>
+</resources>
