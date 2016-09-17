@@ -1,0 +1,8 @@
+<android.support.v7.widget.Toolbar
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/toolbar"
+    android:background="#3F51B5"
+    android:theme="@style/AppTheme"
+    android:popupTheme="@style/Theme.AppCompat.Light.Dialog"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
