@@ -4,3 +4,38 @@ body{
     background-color: #34495E;
     background: url("../img/back.png");
 }
+.navbar{
+	background-color: #1A5276;
+}
+.navbar-toggle{
+	border-color: #fff !important;
+}
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+#navbar-primary .navbar-nav { 
+  /*background: #ededed;*/
+  	width: 100%;
+  	text-align: center;
+  
+}
+#navbar-primary .navbar-nav li {
+   	display: inline-block;
+    float: none;
+}
+
+#navbar-primary .navbar-nav li a {
+	color: #fff;
+  	padding-left: 30px;
+  	padding-right: 30px;
+}
+#navbar-primary .navbar-nav li a:hover{
+	background-color: transparent;
+}
+#navbar-primary .navbar-nav li a span{
+	padding-bottom: 5px;
+}
+
+#navbar-primary .navbar-nav li a:hover {
+    color: #000;
+}
