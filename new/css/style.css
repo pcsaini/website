@@ -4,8 +4,10 @@ body{
     background-color: #34495E;
     background: url("../img/back.png");
 }
+/*---------Navigation Bar-------------*/
 .navbar{
 	background-color: #1A5276;
+	border-radius: 0 !important;
 }
 .navbar-toggle{
 	border-color: #fff !important;
@@ -26,16 +28,11 @@ body{
 
 #navbar-primary .navbar-nav li a {
 	color: #fff;
-  	padding-left: 30px;
-  	padding-right: 30px;
-}
-#navbar-primary .navbar-nav li a:hover{
-	background-color: transparent;
-}
-#navbar-primary .navbar-nav li a span{
-	padding-bottom: 5px;
-}
+  	font-weight: 700;
+  	padding: 5px 30px;
 
-#navbar-primary .navbar-nav li a:hover {
-    color: #000;
+}
+#navbar-primary .navbar-nav li a:hover, #navbar-primary .navbar-nav li a:active{
+	background-color: transparent;
+	color: #000;
 }
