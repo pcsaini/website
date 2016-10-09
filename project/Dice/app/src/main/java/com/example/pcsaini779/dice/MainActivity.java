@@ -16,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
     ImageView imgDice;
     Button btnRoll, btnHold, btnReset;
     private Random random = new Random();
-    private int userCurrentScore;
+    private int userCurrentScore = 0;
+    private int compCurrentScore = 0;
+    boolean userTurn = true;
     private int diceIcons[] = {
             R.drawable.dice1, R.drawable.dice2, R.drawable.dice3,
             R.drawable.dice4, R.drawable.dice5, R.drawable.dice6
@@ -48,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         btnHold.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                holdMethod();
             }
         });
     }
@@ -56,14 +58,44 @@ public class MainActivity extends AppCompatActivity {
         int num = random.nextInt(6) + 1;
         int currentScore = Integer.parseInt(txtUserScore.getText().toString());
         imgDice.setImageResource(diceIcons[num-1]);
-        currentScore += num;
-        userCurrentScore += num;
-        txtUserScore.setText(currentScore + "");
+        if(num ==1){
+            currentScore -= userCurrentScore;
+            txtUserScore.setText(currentScore + "");
+            computerTurn();
+        }else {
+            currentScore += num;
+            userCurrentScore += num;
+            txtUserScore.setText(currentScore + "");
+        }
     }
     protected void onStart() {
         super.onStart();
         userCurrentScore = 0;
         txtUserScore.setText("0");
         txtCoputerScore.setText("0");
+        userTurn = true;
+    }
+    private void holdMethod(){
+        userTurn = false;
+        userCurrentScore = 0;
+        compCurrentScore = 0;
+        computerTurn();
+    }
+    private void computerTurn(){
+        int num;
+        do{
+            num = random.nextInt(6) +1;
+            imgDice.setImageResource(diceIcons[num-1]);
+            if(num ==1){
+                compCurrentScore =0;
+                userTurn = true;
+                break;
+            }else{
+                compCurrentScore +=num;
+            }
+        }while (random.nextInt(8)<6);
+        compCurrentScore = Integer.parseInt(txtCoputerScore.getText().toString()) + compCurrentScore;
+        txtCoputerScore.setText(""+compCurrentScore);
+        compCurrentScore = 0;
     }
 }
