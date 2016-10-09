@@ -9,8 +9,71 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.pcsaini779.dice.MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/score">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_score_label"
+            android:id="@+id/userLable"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="10sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/computerLable"
+            android:layout_marginLeft="10sp"
+            android:text="@string/computer_score_label"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="10sp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_below="@id/score"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/dice1"
+        android:id="@+id/diceImage"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/diceImage"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_roll"
+            android:id="@+id/btnRoll"
+            android:layout_marginTop="10sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_hold"
+            android:id="@+id/btnHold"
+            android:layout_marginTop="10sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_reset"
+            android:id="@+id/btnReset"
+            android:layout_marginTop="10sp"
+            />
+        
+    </LinearLayout>
 </RelativeLayout>
