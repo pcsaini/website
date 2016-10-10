@@ -13,42 +13,55 @@ import android.widget.Toast;
 public class game extends AppCompatActivity {
 
     GridView grid;
-    String[] web = {
+    /*String[] web = {
             "Google",
-            "Twitter",
-            "Windows",
-            "Bing",
-            "Itunes",
-            "Wordpress",
-            "Drupal",
+            "Github",
+            "Instagram",
             "Facebook",
-            "Yahoo",
-            "Amazon",
-            "Ebay",
-            "Paypal"
-    } ;
+            "Flickr",
+            "Pinterest",
+            "Quora",
+            "Twitter",
+            "Vimeo",
+            "WordPress",
+            "Youtube",
+            "Stumbleupon",
+            "SoundCloud",
+            "Reddit",
+            "Blogger"
+
+    } ;*/
+    int[] imageId = {
+            R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg,
+            R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg,
+            R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg,
+            R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg,
+            R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg,
+            R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg,
+            R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg,
+            R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg, R.drawable.cell_bg
+
+
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
-
-
-        grid = (GridView)findViewById(R.id.grid);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, web);
+        GridAdapter adapter = new GridAdapter(game.this, imageId);
+        grid=(GridView)findViewById(R.id.grid);
         grid.setAdapter(adapter);
         grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                Toast.makeText(game.this, "You Clicked at " +web[+ position], Toast.LENGTH_SHORT).show();
+                Toast.makeText(game.this, "You Clicked at " +imageId[+ position], Toast.LENGTH_SHORT).show();
 
             }
         });
 
     }
-
 
 }
